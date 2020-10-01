@@ -1,0 +1,157 @@
+/*import fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Gugi&display=swap');
+
+
+:root{
+    --primary-color:skyblue;
+    --light-gray:black;
+    --border:#2b3032a1;
+    --text-color:#000000; 
+    --gugi:"gugi",cursive;
+    --dosis:"dosis",sans-serif;
+
+}
+.primary-color{
+    color: var(--light-gray);
+}
+
+.bg-primary-color{
+    background-color: var(--primary-color) !important;
+}
+.text-color{
+    color: var(--text-color);
+} 
+.font-dosis{
+    font-family: var(--dosis);
+}
+.lightblue{
+    color: aqua;
+}
+/* header*/
+
+header{
+    background-color: var(--primary-color);
+    font-family: var(--dosis);
+}
+header .site.title{
+    font-family: var(--gugi);
+}
+.container .dropdown-toggle,
+.container .dropdown-item{
+    font-size: 0.7em;
+}
+
+.header-links a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+/*navigation menu*/
+
+.container-fluid{
+    padding: 0;
+}
+.navbar-nav{
+    padding: 0.8em 0em;
+}
+.navbar-nav.nav-link{
+    font-size: 0.9em;
+    color: var(--light-gray) !important;
+}
+.navbar-nav.nav-item.nav-link{
+    padding: 0 1.3em;
+}
+
+.navbar-nav.basket-icon{
+    margin-right: 6.5em !important;
+}
+/*slider one*/
+
+.site-slider{
+    position: relative;
+}
+.position-top{
+    position: absolute;
+    top: 50%;
+}
+.site-slider .slider-btn .prev,
+.site-slider .slider-btn .next{
+    background-color: var(--primary-color);
+    padding: 1rem 1.5rem;
+    border-radius: 10rem;
+    color: white;
+    margin: 1 1rem;
+    opacity: 0;
+    transition:opacity 1s ease ;
+}
+.site-slider:hover .slider-btn .prev,
+.site-slider:hover .slider-btn .next{
+    opacity: 1;
+}
+.right-0{
+    right: 0;
+}
+.container2{
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+   text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: greenyellow;
+    
+}
+
+.box1{
+    width: 250px;
+    height: 300px;
+    background:url();
+    margin: 0px 10px;
+     transition: 1s;
+
+}
+.box2{
+    width: 250px;
+    height: 300px;
+    background:url();
+    margin: 0px 10px;
+     transition: 1s;
+
+}
+.box3{
+    width: 250px;
+    height: 300px;
+    background:url(../assets/plumber.jpeg);
+    margin: 0px 10px;
+     transition: 1s;
+
+}
+
+
+.box1:hover{
+    transform: scale(1.3);
+    background:skyblue;
+    z-index: 2;
+    box-shadow: 2px 2px 2px #000;
+    
+}
+.box2:hover{
+    transform: scale(1.3);
+    background:skyblue;
+    z-index: 2;
+    box-shadow: 2px 2px 2px #000;
+    
+}
+.box3:hover{
+    transform: scale(1.3);
+    background:skyblue;
+    z-index: 2;
+    box-shadow: 2px 2px 2px #000;
+    
+}
+.main-section{
+    background: url(../assets/nairobi.jpg);
+    position: relative;
+}
